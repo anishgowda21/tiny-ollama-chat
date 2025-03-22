@@ -1,5 +1,5 @@
 # Stage 1: Build the client
-FROM node:20-alpine AS client-builder
+FROM node:23-alpine3.20 AS client-builder
 
 # Set working directory for client build
 WORKDIR /build/client
